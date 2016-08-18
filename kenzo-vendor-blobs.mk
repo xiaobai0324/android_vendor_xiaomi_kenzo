@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/propri
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/lib64,system/lib64)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/priv-app,system/priv-app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor/lib,system/vendor/lib)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor/lib64,system/vendor/lib64)
